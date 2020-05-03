@@ -1,0 +1,5 @@
+COMMANDS TO MAKE PENDRIVE NORMAL (UNBOOTABLE)
+1.sudo umount /dev/sdb1
+2.sudo wipefs --all /dev/sdb
+3.sudo cfdisk /dev/sdb
+4.sudo mkfs.vfat -n 'AshuPD' /dev/sdb1
