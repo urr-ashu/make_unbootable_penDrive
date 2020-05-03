@@ -3,3 +3,4 @@ COMMANDS TO MAKE PENDRIVE NORMAL (UNBOOTABLE)
 2.sudo wipefs --all /dev/sdb
 3.sudo cfdisk /dev/sdb
 4.sudo mkfs.vfat -n 'AshuPD' /dev/sdb1
+NOTE:- Make sure the name of penDrive is /dev/sdb (by going to disks in ubuntu) else put the name accordingly..!!!
